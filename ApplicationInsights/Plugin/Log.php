@@ -3,7 +3,7 @@ namespace AbInbev\ApplicationInsights\Plugin;
 
 use MyProject\ApplicationInsights\Helper\Data as HelperData;
 use MyProject\ApplicationInsights\Model\Config;
-use Magento\Framework\Logger\Handler\Base as LoggerInterface;
+use Psr\Log\LoggerInterface as LoggerInterface;
 
 class Log
 {    
