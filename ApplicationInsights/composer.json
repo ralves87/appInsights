@@ -1,0 +1,26 @@
+{
+    "name": "MyProject/module-applicationinsights",
+    "description": "ApplicationInsights | Application Insights",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "email": "",
+            "name": ""
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0",
+        "microsoft/application-insights": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyProject\\ApplicationInsights\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
